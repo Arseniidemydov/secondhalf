@@ -19,6 +19,11 @@ function App() {
   return (
     <main className="relative w-screen h-screen bg-gradient-to-t from-[#435E4F] to-[#050505] text-white font-inter overflow-hidden">
       <BackgroundParticles />
+      <img
+        src="/logo_1.png"
+        alt="Second | Half"
+        className="absolute top-8 left-8 w-48 z-50 pointer-events-none select-none opacity-90"
+      />
       <AnimatePresence mode="wait">
         {phase === "LANDING" && (
           <motion.div

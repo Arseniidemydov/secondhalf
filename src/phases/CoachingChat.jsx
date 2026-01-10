@@ -24,7 +24,22 @@ const CoachingChat = ({ userEmail, userName }) => {
                 {
                     id: 1,
                     type: "ai",
-                    content: `Midlife uncertainty is not a sign that something’s wrong — it’s often a sign that something real is shifting.\n\nWhen you’ve lived enough life to know what drains you, what matters, what you’ve outgrown, and what you can no longer pretend is “fine,” the old story stops fitting. That can feel disorienting… but it’s also the beginning of clarity. This reflection isn’t about having a perfectly defined next chapter. It’s about noticing the patterns, values, and energy that have been trying to get your attention — and turning those into a career story that feels true even while it’s still unfolding.\n\nAnd that story matters. Not because it makes you sound polished, but because it helps you trust yourself again — and it helps other people understand you, support you, and say yes to you.\n\nWhen you’re ready, just say: “Ready.”`,
+                    content: `A career story is a narrative that links your past experiences to where you are now — and helps you make sense of what might come next, even if it’s still unclear.
+
+It’s useful in any transition, and especially in midlife. After years on one path, it’s normal to feel uneasy about leaving an identity behind, and to struggle to describe yourself in a way that feels true today.
+
+This exercise will help you reflect on your journey, notice patterns in how you’ve evolved, and begin articulating a story for your next chapter — without needing to know the destination yet.
+
+I’ll help you reflect on your journey via nine questions and shape it into a clear, authentic career story.
+
+**How this works:**
+* I will ask you 9 questions, one by one.
+* If you get stuck, just ask for "examples."
+* If you don't want to answer a specific question, just type "skip."
+
+Take your time. There are no right answers. This is a discovery process, not a performance.
+
+When you’re ready, just say: “Ready.”`,
                 },
             ]);
             setIsTyping(false);

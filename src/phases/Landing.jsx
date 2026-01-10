@@ -10,7 +10,7 @@ const Landing = ({ onStart }) => {
                 className="text-5xl md:text-7xl font-semibold tracking-tighter mb-12"
             >
                 <span className="bg-gradient-to-br from-white via-gray-300 to-gray-500 bg-clip-text text-transparent">
-                    Are you ready to change?
+                    Ready to craft your Career Story?
                 </span>
             </motion.h1>
 

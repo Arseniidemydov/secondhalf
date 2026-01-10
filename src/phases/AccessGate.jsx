@@ -47,6 +47,9 @@ const AccessGate = ({ onComplete }) => {
                             className="w-full bg-white/5 border border-white/10 text-white placeholder-white/30 rounded-2xl px-6 py-4 text-lg focus:outline-none focus:border-white/30 focus:bg-white/10 transition-all duration-300 backdrop-blur-xl shadow-2xl"
                         />
                     </div>
+                    <p className="text-xs text-center text-white/40 px-4">
+                        By continuing, you agree to sign up for "Second | Half" marketing communication.
+                    </p>
 
                     <button
                         type="submit"

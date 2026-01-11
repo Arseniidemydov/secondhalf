@@ -48,7 +48,7 @@ const AccessGate = ({ onComplete }) => {
                         />
                     </div>
                     <p className="text-xs text-center text-white/40 px-4">
-                        By continuing, you agree to sign up for "Second | Half" marketing communication.
+                        By continuing, you agree to join Second Half’s newsletter.
                     </p>
 
                     <button
@@ -59,7 +59,7 @@ const AccessGate = ({ onComplete }) => {
                             : "bg-white/10 text-white/30 cursor-not-allowed opacity-50"
                             }`}
                     >
-                        Start a Journey
+                        Start
                     </button>
                 </form>
             </div>

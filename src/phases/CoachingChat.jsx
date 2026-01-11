@@ -176,13 +176,13 @@ When you’re ready, just say: “Ready.”`,
                                             ol: ({ node, ...props }) => <ol className="list-decimal pl-4 mb-2 space-y-1" {...props} />,
                                             a: ({ node, ...props }) => <a className="text-blue-400 hover:text-blue-300 underline" target="_blank" rel="noopener noreferrer" {...props} />,
                                         }}>
-                                            {msg.content}
+                                            {msg.content.replace("[THE NARRATIVE]", "")}
                                         </ReactMarkdown>
                                     </div>
                                 )}
                             </div>
 
-                            {msg.type === "ai" && msg.content.toLowerCase().includes("manifesto") && (
+                            {msg.type === "ai" && msg.content.includes("[THE NARRATIVE]") && (
                                 <motion.button
                                     initial={{ opacity: 0, y: 10 }}
                                     animate={{ opacity: 1, y: 0 }}
